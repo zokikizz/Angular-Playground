@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+  nestPlaygroundDB:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'nestPlaygroundDB'
+      MYSQL_USER: 'kizz'
+      MYSQL_PASSWORD: 'kizz'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '5050:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db:/var/lib/mysql
+volumes:
+  my-db:
