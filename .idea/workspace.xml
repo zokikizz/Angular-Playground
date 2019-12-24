@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a7fe4529-3e2c-486c-8f80-41e084bfd44f" name="Default Changelist" comment="First migration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-playground/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-playground/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-playground/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-playground/src/cats/cat.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/src/cats/cat.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-playground/src/cats/cats.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/src/cats/cats.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-playground/src/cats/cats.providers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/src/cats/cats.providers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-playground/src/cats/cats.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/src/cats/cats.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-playground/src/cats/create-cat.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/src/cats/create-cat.dto.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -168,6 +176,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nest-playground" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -190,8 +199,8 @@
         <option value="$PROJECT_DIR$/nest-playground/src/user/user.module.ts" />
         <option value="$PROJECT_DIR$/nest-playground/src/user/user/user.controller.ts" />
         <option value="$PROJECT_DIR$/nest-playground/src/user/user/user.entity.ts" />
-        <option value="$PROJECT_DIR$/nest-playground/src/user/user/user.dto.ts" />
         <option value="$PROJECT_DIR$/nest-playground/src/user/user/user.service.ts" />
+        <option value="$PROJECT_DIR$/nest-playground/src/user/user/user.dto.ts" />
       </list>
     </option>
   </component>
@@ -353,12 +362,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577112722559</updated>
-      <workItem from="1577112723810" duration="10306000" />
+      <workItem from="1577112723810" duration="10566000" />
     </task>
+    <task id="LOCAL-00001" summary="create basic user and create endpoints for listing and for creating users">
+      <created>1577202072165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577202072165</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10306000" />
+    <option name="totallyTimeSpent" value="10566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1920" height="993" extended-state="6" />
@@ -417,7 +434,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="First migration" />
+    <MESSAGE value="create basic user and create endpoints for listing and for creating users" />
+    <option name="LAST_COMMIT_MESSAGE" value="create basic user and create endpoints for listing and for creating users" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
