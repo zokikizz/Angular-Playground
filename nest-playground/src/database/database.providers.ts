@@ -1,5 +1,4 @@
 import { Sequelize } from 'sequelize-typescript';
-import { Cat } from '../cats/cat.entity';
 
 export const databaseProviders = [
     {
@@ -13,7 +12,7 @@ export const databaseProviders = [
                 password: 'kizz',
                 database: 'nestPlaygroundDB',
             });
-            sequelize.addModels([Cat]);
+            sequelize.addModels([]);
             await sequelize.sync();
             return sequelize;
         },
