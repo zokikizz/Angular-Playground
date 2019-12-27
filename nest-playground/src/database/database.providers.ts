@@ -1,20 +1,15 @@
-import { Sequelize } from 'sequelize-typescript';
-
+import {Sequelize} from 'sequelize-typescript';
+import {ConfigService} from '../shared/config/config.service';
+import {User} from '../users/user.entity';
 export const databaseProviders = [
     {
         provide: 'SEQUELIZE',
-        useFactory: async () => {
-            const sequelize = new Sequelize({
-                dialect: 'mysql',
-                host: 'localhost',
-                port: 5050,
-                username: 'kizz',
-                password: 'kizz',
-                database: 'nestPlaygroundDB',
-            });
-            sequelize.addModels([]);
+        useFactory: async (configService: ConfigService) => {
+            const sequelize = new Sequelize(configService.sequelizeOrmConfig);
+            sequelize.addModels([User]);
             await sequelize.sync();
             return sequelize;
         },
+        inject: [ ConfigService ],
     },
 ];
