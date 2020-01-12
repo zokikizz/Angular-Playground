@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7fe4529-3e2c-486c-8f80-41e084bfd44f" name="Default Changelist" comment="db entity done">
-      <change afterPath="$PROJECT_DIR$/nest-playground/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest-playground/config/config.dev.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest-playground/config/config.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest-playground/src/shared/config/intefaces/jwt-config.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest-playground/src/shared/config/intefaces/sequelize-orm-config.interfacte.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nest-playground/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-playground/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-playground/src/database/database.providers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/src/database/database.providers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-playground/src/users/dto/user-login-request.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/src/users/dto/user-login-request.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-playground/src/users/dto/user-login-response.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/src/users/dto/user-login-response.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-playground/src/users/dto/user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/src/users/dto/user.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-playground/src/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/src/users/users.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-playground/src/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-playground/src/users/users.controller.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,14 +55,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nest-playground/src/users/users.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="108" column="33" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+            <state relative-caret-position="439">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
               <folding>
                 <element signature="e#0#77#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nest-playground/src/users/users.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -195,6 +193,7 @@
         <option value="$PROJECT_DIR$/nest-playground/src/database/database.providers.ts" />
         <option value="$PROJECT_DIR$/nest-playground/config/config.prod.ts" />
         <option value="$PROJECT_DIR$/nest-playground/src/users/users.service.ts" />
+        <option value="$PROJECT_DIR$/nest-playground/src/users/users.controller.ts" />
       </list>
     </option>
   </component>
@@ -282,7 +281,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/nest-playground/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -333,7 +332,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577112722559</updated>
       <workItem from="1577112723810" duration="10566000" />
-      <workItem from="1577266131469" duration="8840000" />
+      <workItem from="1577266131469" duration="9670000" />
     </task>
     <task id="LOCAL-00001" summary="create basic user and create endpoints for listing and for creating users">
       <created>1577202072165</created>
@@ -363,25 +362,32 @@
       <option name="project" value="LOCAL" />
       <updated>1577269819675</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="user service done and config service done need to test it wip">
+      <created>1577442039021</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577442039021</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19406000" />
+    <option name="totallyTimeSpent" value="20236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2274678" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2274678" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" />
       <window_info anchor="bottom" id="SonarLint" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.22358723" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.22358723" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3280098" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3299435" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
@@ -433,7 +439,8 @@
     <MESSAGE value="Clear repo from Cat module" />
     <MESSAGE value="jwt strategy added wip" />
     <MESSAGE value="db entity wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="db entity wip" />
+    <MESSAGE value="user service done and config service done need to test it wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="user service done and config service done need to test it wip" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
@@ -730,11 +737,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nest-playground/src/users/users.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="108" column="33" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+        <state relative-caret-position="439">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
           <folding>
             <element signature="e#0#77#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../cep2-compose-ui/src/assets/metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nest-playground/src/users/users.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
         </state>
       </provider>
     </entry>
