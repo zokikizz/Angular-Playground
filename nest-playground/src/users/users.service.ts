@@ -7,14 +7,13 @@ import {sign} from 'jsonwebtoken';
 import {UserLoginResponseDto} from './dto/user-login-response.dto';
 import { genSalt, hash, compare } from 'bcrypt';
 import {UserLoginRequestDto} from './dto/user-login-request.dto';
-import {is} from "@babel/types";
 
 @Injectable()
 export class UsersService {
 
     private readonly jwtPrivateKey: string;
 
-    constructor(@Inject('UserRepository') private readonly userRepository: typeof User,
+    constructor(@Inject('UsersRepository') private readonly userRepository: typeof User,
                 private readonly configService: ConfigService) {
         this.jwtPrivateKey = configService.jwtConfig.privateKey;
     }

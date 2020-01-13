@@ -5,7 +5,15 @@ export const databaseProviders = [
     {
         provide: 'SEQUELIZE',
         useFactory: async (configService: ConfigService) => {
-            const sequelize = new Sequelize(configService.sequelizeOrmConfig);
+            const sequelize = new Sequelize({
+                dialect: 'mysql',
+                host: 'localhost',
+                port: 5050,
+                username: 'kizz',
+                password: 'kizz',
+                database: 'nestPlaygroundDB',
+                logging: false,
+            });
             sequelize.addModels([User]);
             await sequelize.sync();
             return sequelize;

@@ -1,4 +1,3 @@
-import { Injectable } from '@nestjs/common';
+import { User } from './user.entity';
 
-@Injectable()
-export class UsersProvider {}
+export const usersProviders = [{ provide: 'UsersRepository', useValue: User }];

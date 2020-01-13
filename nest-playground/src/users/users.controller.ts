@@ -13,7 +13,7 @@ export class UsersController {
 
     // @ApiOkResponse check this
     @Post('register')
-    register(@Body() createUserDto: UserDto): Promise<UserDto> {
+    register(@Body() createUserDto: { email, firstName, lastName, password }): Promise<UserDto> {
         return this.userService.create(createUserDto as User);
     }
 
