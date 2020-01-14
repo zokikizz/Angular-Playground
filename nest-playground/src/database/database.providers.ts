@@ -1,6 +1,7 @@
 import {Sequelize} from 'sequelize-typescript';
 import {ConfigService} from '../shared/config/config.service';
 import {User} from '../users/user.entity';
+
 export const databaseProviders = [
     {
         provide: 'SEQUELIZE',
